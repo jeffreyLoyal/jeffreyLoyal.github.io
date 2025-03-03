@@ -38,6 +38,7 @@ section {
     max-width: 800px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center everything inside sections */
 }
 
 h2 {
@@ -66,4 +67,25 @@ footer {
     background-color: #222;
     color: white;
     padding: 10px;
+}
+
+/* Style for buttons */
+a.resume-button {
+    display: inline-block;
+    background-color: #003366; /* Darker blue */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Profile Image Styling */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Adjust size if needed */
+    border-radius: 50%;
+    border: 3px solid #003366;
 }
